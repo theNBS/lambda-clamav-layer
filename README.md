@@ -8,6 +8,10 @@ To generate the layer, run
 
     dockerbuild.sh
 
+If you're running on windows, run
+
+    dockerbuild.cmd
+
 To inspect the contents of the zipfile, run
 
     unzip -vl build/lambda_layer.zip
